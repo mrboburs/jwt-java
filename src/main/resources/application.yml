@@ -1,0 +1,19 @@
+jwt:
+  key: ${JWT_KEY}
+  access-token-expiration: 360000
+  refresh-token-expiration: 86400000
+
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: 1996
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+#Using generated security password: 893ada63-7087-4dfa-a13c-9d8ca8832c80
